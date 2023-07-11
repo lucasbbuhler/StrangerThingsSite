@@ -1,0 +1,59 @@
+.actor_cards_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards_content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #F1F6F9;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.banner_4 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/316/338/desktop-wallpaper-stranger-things-4-stranger-things-season-4-background-thumbnail.jpg");
+}
+
+.banner_5 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/787/542/desktop-wallpaper-stranger-things-stranger-things-thumbnail.jpg");
+}
+
+.banner_6 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/695/838/desktop-wallpaper-stranger-things-vol-2-usa-vol-2-vecna-thumbnail.jpg");
+}
+
+.banner_7 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/272/527/desktop-wallpaper-stranger-things-season-4-updates-new-cast-leaks-suggests-jim-hopper-is-dead-for-permanent-the-geek-herald-thumbnail.jpg");
+}
+
+.banner_8 {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/355/308/desktop-wallpaper-stranger-things-season-4-eddie-munson-thumbnail.jpg");
+}
+
+.banner_9 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/504/97/desktop-wallpaper-stranger-things-s04e04-thumbnail.jpg");
+}

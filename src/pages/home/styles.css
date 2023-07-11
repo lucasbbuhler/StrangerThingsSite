@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#banner {
+    background-image: url("https://i0.wp.com/www.dabeme.com.br/wp-content/uploads/2021/08/20210419-3586018-stranger-things-4.jpg?fit=1280%2C720&ssl=1");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer_container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #950101;
+    color: #F1F6F9;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #F1F6F9;
+    color: #000;
+}
+
+@media(max-width: 768px) {
+    #banner {
+        background-position: auto;
+        padding-bottom: 150px;
+    }
+
+    #trailer_container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body {
+    padding: 0 20px 50px;
+}
+
+#contato {
+    color: #950101;
+    font-size: 2.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+textarea,
+select,
+input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 4px;
+    border: 1px solid #F1F6F9;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.button {
+    position: relative;
+    background: #950101;
+    color: #F1F6F9;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    transition: 0.3s all;
+}
+
