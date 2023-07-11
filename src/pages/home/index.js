@@ -3,6 +3,7 @@ import Header from "../../components/header/header"
 import Cards from "../../components/cards/cards"
 import './styles.css'
 import Footer from "../../components/footer/footer";
+import { Link } from "react-router-dom";
 
 function Home() {        
     return (
@@ -17,7 +18,9 @@ function Home() {
                             Uma nova ameaça do Mundo Invertido surge para romper a linha tênue que separa a realidade humana da dimensão sombria habitada pelos Demogorgons.
                             Para isso, Vecna deve assassinar quatro crianças e adolescentes de Hawkins, abrindo o portal que dá acesso às criaturas do mundo invertido a Hawkins.
                         </p>
-                        <button class="button" onclick="location.href='https://www.netflix.com/br/title/80057281'">Assista já</button>
+                        <Link style={{ textDecoration: 'none' }} to={'https://www.netflix.com/br/title/80057281'}>
+                        <button class="button">Assista já</button>
+                        </Link>
                     </div>
                 </div>
            </div> 
